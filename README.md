@@ -49,10 +49,11 @@ Ta thấy với 1 byte thay đổi có thể gây ảnh hưởng đến 3 bytes 
 
 Sau bước này, ta sẽ có thêm 3 active index, do mỗi byte trong kết quả thu được là tổ hợp tuyến tính giữa 4 byte, gồm 3 byte cố định và 1 byte thay đổi.
 
-$$
-\underbrace{2a_0}_\text{active} +
-\underbrace{3a_1 + 1a_2 + 1a_3}_\text{constant}
-$$
+$\underbrace{2a_0}_\text{active}$  
+
+$+$
+
+$\underbrace{3a_1 + 1a_2 + 1a_3}_\text{constant}$
 
 ![image](https://github.com/vanluongkma/AES-Square-Attack/assets/127461439/86613cdb-78a7-4df0-8d89-89d08d541911)
 
